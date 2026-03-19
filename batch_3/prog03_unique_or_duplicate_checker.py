@@ -4,7 +4,6 @@ numbers = []
 while True:
     try:
         num = int(input("Enter a number: "))
-        
         if num in numbers:
             print("Duplicate")
         else:
